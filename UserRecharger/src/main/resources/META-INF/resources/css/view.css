@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url(../images/background-image.jpg);
+    background-size: cover;
+}
+
+.invisible-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+#view-page{
+    overflow: auto;
+}
+
+/* View Card */
+#view-card-row {
+    width: 60rem;
+    margin-left: 10rem;
+}
+
+/* Options Card */
+#options-card {
+    width: 60rem;
+    height: 5rem;
+    display: block;
+}
+
+#select-open {
+    display: block;
+}
+
+/* Empty Card */
+#empty-card {
+    width: 60rem;
+    margin-top: 1.5rem;
+    z-index: 3;
+}
+
+/* Fixed View All Button */
+#showAll {
+    position: fixed;
+    bottom: 15px;
+    right: 10px;
+  }

@@ -1,0 +1,64 @@
+/* user-register.css */
+
+/* Body Styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+* {
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-image: url(../images/background-image.jpg);
+    background-size: contain;
+}
+
+/* Navigation Bar Styles */
+
+
+.navbar-brand {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+/* User Registration Card Styles */
+#user-register-card {
+    max-width: 1000px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#user-register-card-row {
+    align-items: center;
+}
+
+/* Form Styles */
+.form-label {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.btn-dark {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.btn-dark:hover {
+    background-color: #212529;
+}
+
+/* Modal Styles */
+.modal-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.modal-body {
+    font-size: 1rem;
+}
+
+.modal-footer {
+    justify-content: center;
+}

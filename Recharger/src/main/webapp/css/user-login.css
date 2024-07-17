@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url(../images/background-image.jpg);
+    background-size: contain;
+}
+
+/* User Login Card */
+#user-login-card {
+    width: 60rem;
+    margin-left: 10rem;
+}
+
+#user-login-card-row {
+    width: 60rem;
+}
